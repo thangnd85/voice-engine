@@ -19,8 +19,8 @@ It includes building blocks such as KWS (keyword spotting), DOA (Direction Of Ar
 Install pyaudio, numpy and snowboy, use virtualenv a virtual python environment.
 
 ```
-sudo apt install python-pyaudio python-numpy python-virtualenv
-sudo apt-get install swig python-dev libatlas-base-dev build-essential make
+sudo apt install python3-pyaudio python3-numpy python3-virtualenv
+sudo apt-get install swig python3-dev libatlas-base-dev build-essential make
 git clone --depth 1 https://github.com/Kitt-AI/snowboy.git
 cd snowboy
 virtualenv --system-site-packages env
